@@ -37,3 +37,6 @@ Triggers
 Long running transactions
 - 10 concurrent jobs which runs more than 5 seconds
 
+Test.LoadData()
+- Use this to create test data from Static Resources
+
