@@ -35,6 +35,14 @@ Batch
 Triggers
 
 Long running transactions
+
+Event Driven Architecture
+- Publish Subscribe - Guarenteed delivery, unique copy
+- Fanout - No guarenteed delivery, no unique copy
+- Claim Check - Message header and data store - sends only header - guarenteed delivery
+- Passed Messages - Router - Transformer - Writer
+- Streaming - Similar to pub sub but in stream 
+- Queueing - Message queue - low connectivity - buffering
 - 10 concurrent jobs which runs more than 5 seconds
 
 Test.LoadData()
